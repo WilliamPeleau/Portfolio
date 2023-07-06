@@ -5,10 +5,11 @@ import Home from './component/Home';
 import Project from './component/Project';
 import Education from './component/Education';
 import Experience from './component/Experience';
+import './App.css'
 function App() {
 
   return (
-    <>
+    <div className='app'>
       <NavBar />
       <Routes>
       <Route path="/" element={<Home />} />
@@ -24,7 +25,7 @@ function App() {
           }
         />
       </Routes>
-    </>
+    </div>
   )
 }
 

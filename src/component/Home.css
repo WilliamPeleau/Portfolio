@@ -1,0 +1,12 @@
+.card-group .card {
+    margin: 20px;
+    border: 4px solid #da9707;
+    background-color: #262f3e;
+  }
+
+.card-group .card:nth-last-child(1) .card-body,
+.card-group .card:nth-last-child(2) .card-body {
+  border-left: 4px solid #da9707;
+}
+
+
